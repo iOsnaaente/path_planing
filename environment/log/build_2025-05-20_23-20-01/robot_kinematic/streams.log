@@ -1,0 +1,70 @@
+[0.178s] Invoking command in '/home/iosnaaente/Desktop/path_planning/build/robot_kinematic': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake /home/iosnaaente/Desktop/path_planning/src/robot_kinematic -DCMAKE_INSTALL_PREFIX=/home/iosnaaente/Desktop/path_planning/install/robot_kinematic
+[0.485s] -- The C compiler identification is GNU 11.4.0
+[1.629s] -- The CXX compiler identification is GNU 11.4.0
+[2.470s] -- Detecting C compiler ABI info
+[2.674s] -- Detecting C compiler ABI info - done
+[2.684s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.685s] -- Detecting C compile features
+[2.687s] -- Detecting C compile features - done
+[2.693s] -- Detecting CXX compiler ABI info
+[2.995s] -- Detecting CXX compiler ABI info - done
+[3.018s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.018s] -- Detecting CXX compile features
+[3.020s] -- Detecting CXX compile features - done
+[3.024s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.237s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.387s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.658s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.670s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.685s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.719s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.779s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.783s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.563s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.585s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.945s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.956s] -- Looking for pthread.h
+[7.158s] -- Looking for pthread.h - found
+[7.158s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.344s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.345s] -- Found Threads: TRUE  
+[7.411s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[7.427s] -- Found custom_messages: 0.0.0 (/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/cmake)
+[7.443s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.577s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.577s] -- Configured cppcheck include dirs: 
+[7.577s] -- Configured cppcheck exclude dirs and/or files: 
+[7.578s] -- Added test 'lint_cmake' to check CMake code style
+[7.580s] -- Added test 'uncrustify' to check C / C++ code style
+[7.580s] -- Configured uncrustify additional arguments: 
+[7.581s] -- Added test 'xmllint' to check XML markup files
+[7.584s] -- Configuring done
+[7.603s] -- Generating done
+[7.609s] -- Build files have been written to: /home/iosnaaente/Desktop/path_planning/build/robot_kinematic
+[7.622s] Invoked command in '/home/iosnaaente/Desktop/path_planning/build/robot_kinematic' returned '0': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake /home/iosnaaente/Desktop/path_planning/src/robot_kinematic -DCMAKE_INSTALL_PREFIX=/home/iosnaaente/Desktop/path_planning/install/robot_kinematic
+[7.624s] Invoking command in '/home/iosnaaente/Desktop/path_planning/build/robot_kinematic': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --build /home/iosnaaente/Desktop/path_planning/build/robot_kinematic -- -j8 -l8
+[7.687s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_kinematic.dir/src/robot_kinematic.cpp.o[0m
+[12.277s] [100%] [32m[1mLinking CXX executable robot_kinematic[0m
+[12.590s] [100%] Built target robot_kinematic
+[12.606s] Invoked command in '/home/iosnaaente/Desktop/path_planning/build/robot_kinematic' returned '0': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --build /home/iosnaaente/Desktop/path_planning/build/robot_kinematic -- -j8 -l8
+[12.608s] Invoking command in '/home/iosnaaente/Desktop/path_planning/build/robot_kinematic': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --install /home/iosnaaente/Desktop/path_planning/build/robot_kinematic
+[12.616s] -- Install configuration: ""
+[12.617s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/lib/robot_kinematic/robot_kinematic
+[12.617s] -- Set runtime path of "/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/lib/robot_kinematic/robot_kinematic" to ""
+[12.619s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/ament_index/resource_index/package_run_dependencies/robot_kinematic
+[12.619s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/ament_index/resource_index/parent_prefix_path/robot_kinematic
+[12.620s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/environment/ament_prefix_path.sh
+[12.621s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/environment/ament_prefix_path.dsv
+[12.621s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/environment/path.sh
+[12.621s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/environment/path.dsv
+[12.622s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/local_setup.bash
+[12.622s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/local_setup.sh
+[12.622s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/local_setup.zsh
+[12.622s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/local_setup.dsv
+[12.623s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.dsv
+[12.623s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/ament_index/resource_index/packages/robot_kinematic
+[12.623s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/cmake/robot_kinematicConfig.cmake
+[12.623s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/cmake/robot_kinematicConfig-version.cmake
+[12.623s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.xml
+[12.626s] Invoked command in '/home/iosnaaente/Desktop/path_planning/build/robot_kinematic' returned '0': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --install /home/iosnaaente/Desktop/path_planning/build/robot_kinematic

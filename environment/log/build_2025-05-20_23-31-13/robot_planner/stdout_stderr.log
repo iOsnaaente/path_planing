@@ -1,0 +1,19 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_planner.dir/src/robot_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX executable robot_planner[0m
+[100%] Built target robot_planner
+-- Install configuration: ""
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/ament_index/resource_index/package_run_dependencies/robot_planner
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/ament_index/resource_index/parent_prefix_path/robot_planner
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/environment/path.sh
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/environment/path.dsv
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/local_setup.bash
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/local_setup.sh
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/local_setup.zsh
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/local_setup.dsv
+-- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.dsv
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/ament_index/resource_index/packages/robot_planner
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/cmake/robot_plannerConfig.cmake
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/cmake/robot_plannerConfig-version.cmake
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.xml

@@ -1,0 +1,38 @@
+[1.156s] Invoking command in '/home/iosnaaente/Desktop/path_planning/launcher': PYTHONPATH=/home/iosnaaente/Desktop/path_planning/build/robot_launcher/prefix_override:/home/iosnaaente/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_launcher build --build-base /home/iosnaaente/Desktop/path_planning/build/robot_launcher/build install --record /home/iosnaaente/Desktop/path_planning/build/robot_launcher/install.log --single-version-externally-managed install_data
+[1.655s] running egg_info
+[1.656s] creating ../build/robot_launcher/robot_launcher.egg-info
+[1.657s] writing ../build/robot_launcher/robot_launcher.egg-info/PKG-INFO
+[1.657s] writing dependency_links to ../build/robot_launcher/robot_launcher.egg-info/dependency_links.txt
+[1.657s] writing entry points to ../build/robot_launcher/robot_launcher.egg-info/entry_points.txt
+[1.658s] writing requirements to ../build/robot_launcher/robot_launcher.egg-info/requires.txt
+[1.658s] writing top-level names to ../build/robot_launcher/robot_launcher.egg-info/top_level.txt
+[1.658s] writing manifest file '../build/robot_launcher/robot_launcher.egg-info/SOURCES.txt'
+[1.664s] reading manifest file '../build/robot_launcher/robot_launcher.egg-info/SOURCES.txt'
+[1.666s] writing manifest file '../build/robot_launcher/robot_launcher.egg-info/SOURCES.txt'
+[1.667s] running build
+[1.668s] running build_py
+[1.668s] creating /home/iosnaaente/Desktop/path_planning/build/robot_launcher/build
+[1.669s] creating /home/iosnaaente/Desktop/path_planning/build/robot_launcher/build/lib
+[1.669s] creating /home/iosnaaente/Desktop/path_planning/build/robot_launcher/build/lib/robot_launcher
+[1.670s] copying robot_launcher/simulation.launch.py -> /home/iosnaaente/Desktop/path_planning/build/robot_launcher/build/lib/robot_launcher
+[1.670s] copying robot_launcher/__init__.py -> /home/iosnaaente/Desktop/path_planning/build/robot_launcher/build/lib/robot_launcher
+[1.670s] running install
+[1.670s] running install_lib
+[1.672s] creating /home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages/robot_launcher
+[1.672s] copying /home/iosnaaente/Desktop/path_planning/build/robot_launcher/build/lib/robot_launcher/simulation.launch.py -> /home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages/robot_launcher
+[1.672s] copying /home/iosnaaente/Desktop/path_planning/build/robot_launcher/build/lib/robot_launcher/__init__.py -> /home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages/robot_launcher
+[1.673s] byte-compiling /home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages/robot_launcher/simulation.launch.py to simulation.launch.cpython-310.pyc
+[1.674s] byte-compiling /home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages/robot_launcher/__init__.py to __init__.cpython-310.pyc
+[1.675s] running install_data
+[1.675s] creating /home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/ament_index
+[1.676s] creating /home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/ament_index/resource_index
+[1.677s] creating /home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/ament_index/resource_index/packages
+[1.679s] copying resource/robot_launcher -> /home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/ament_index/resource_index/packages
+[1.680s] copying package.xml -> /home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/robot_launcher
+[1.681s] creating /home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/robot_launcher/robot_launcher
+[1.682s] copying robot_launcher/simulation.launch.py -> /home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/robot_launcher/robot_launcher
+[1.682s] running install_egg_info
+[1.686s] Copying ../build/robot_launcher/robot_launcher.egg-info to /home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages/robot_launcher-0.0.0-py3.10.egg-info
+[1.687s] running install_scripts
+[1.726s] writing list of installed files to '/home/iosnaaente/Desktop/path_planning/build/robot_launcher/install.log'
+[1.781s] Invoked command in '/home/iosnaaente/Desktop/path_planning/launcher' returned '0': PYTHONPATH=/home/iosnaaente/Desktop/path_planning/build/robot_launcher/prefix_override:/home/iosnaaente/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_launcher build --build-base /home/iosnaaente/Desktop/path_planning/build/robot_launcher/build install --record /home/iosnaaente/Desktop/path_planning/build/robot_launcher/install.log --single-version-externally-managed install_data

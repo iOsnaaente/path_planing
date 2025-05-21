@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_kinematic[0m
+[100%] Built target robot_kinematic
+-- Install configuration: ""
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/lib/robot_kinematic/robot_kinematic
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/ament_index/resource_index/package_run_dependencies/robot_kinematic
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/ament_index/resource_index/parent_prefix_path/robot_kinematic
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/environment/ament_prefix_path.sh
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/environment/path.sh
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/environment/path.dsv
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/local_setup.bash
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/local_setup.sh
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/local_setup.zsh
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/local_setup.dsv
+-- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.dsv
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/ament_index/resource_index/packages/robot_kinematic
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/cmake/robot_kinematicConfig.cmake
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/cmake/robot_kinematicConfig-version.cmake
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.xml

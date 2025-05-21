@@ -1,0 +1,6 @@
+msg/Obstacles.idl
+msg/Obstacles.msg
+msg/Robot.idl
+msg/Robot.msg
+msg/Target.idl
+msg/Target.msg

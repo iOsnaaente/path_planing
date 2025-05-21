@@ -1,0 +1,23 @@
+[0.138s] Invoking command in '/home/iosnaaente/Desktop/path_planning/build/robot_planner': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --build /home/iosnaaente/Desktop/path_planning/build/robot_planner -- -j8 -l8
+[0.225s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_planner.dir/src/robot_planner.cpp.o[0m
+[7.080s] [100%] [32m[1mLinking CXX executable robot_planner[0m
+[7.607s] [100%] Built target robot_planner
+[7.624s] Invoked command in '/home/iosnaaente/Desktop/path_planning/build/robot_planner' returned '0': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --build /home/iosnaaente/Desktop/path_planning/build/robot_planner -- -j8 -l8
+[7.626s] Invoking command in '/home/iosnaaente/Desktop/path_planning/build/robot_planner': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --install /home/iosnaaente/Desktop/path_planning/build/robot_planner
+[7.640s] -- Install configuration: ""
+[7.640s] -- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/ament_index/resource_index/package_run_dependencies/robot_planner
+[7.641s] -- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/ament_index/resource_index/parent_prefix_path/robot_planner
+[7.641s] -- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/environment/ament_prefix_path.sh
+[7.642s] -- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/environment/ament_prefix_path.dsv
+[7.642s] -- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/environment/path.sh
+[7.642s] -- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/environment/path.dsv
+[7.642s] -- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/local_setup.bash
+[7.643s] -- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/local_setup.sh
+[7.643s] -- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/local_setup.zsh
+[7.643s] -- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/local_setup.dsv
+[7.644s] -- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.dsv
+[7.644s] -- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/ament_index/resource_index/packages/robot_planner
+[7.644s] -- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/cmake/robot_plannerConfig.cmake
+[7.645s] -- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/cmake/robot_plannerConfig-version.cmake
+[7.645s] -- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.xml
+[7.648s] Invoked command in '/home/iosnaaente/Desktop/path_planning/build/robot_planner' returned '0': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --install /home/iosnaaente/Desktop/path_planning/build/robot_planner

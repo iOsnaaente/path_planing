@@ -1,0 +1,44 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found custom_messages: 0.0.0 (/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/iosnaaente/Desktop/path_planning/build/robot_planner
+[35m[1mConsolidate compiler generated dependencies of target robot_planner[0m
+[ 50%] [32m[1mLinking CXX executable robot_planner[0m
+[100%] Built target robot_planner
+-- Install configuration: ""
+-- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_planner/lib/robot_planner/robot_planner
+-- Set runtime path of "/home/iosnaaente/Desktop/path_planning/install/robot_planner/lib/robot_planner/robot_planner" to ""
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/ament_index/resource_index/package_run_dependencies/robot_planner
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/ament_index/resource_index/parent_prefix_path/robot_planner
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/environment/ament_prefix_path.sh
+-- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/environment/path.sh
+-- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/environment/path.dsv
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/local_setup.bash
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/local_setup.sh
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/local_setup.zsh
+-- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/local_setup.dsv
+-- Installing: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.dsv
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/ament_index/resource_index/packages/robot_planner
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/cmake/robot_plannerConfig.cmake
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/cmake/robot_plannerConfig-version.cmake
+-- Up-to-date: /home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.xml

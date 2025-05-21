@@ -1,0 +1,10 @@
+/home/iosnaaente/Desktop/path_planning/build/robot_kinematic/CMakeFiles/uninstall.dir
+/home/iosnaaente/Desktop/path_planning/build/robot_kinematic/CMakeFiles/robot_kinematic_uninstall.dir
+/home/iosnaaente/Desktop/path_planning/build/robot_kinematic/CMakeFiles/robot_kinematic.dir
+/home/iosnaaente/Desktop/path_planning/build/robot_kinematic/CMakeFiles/test.dir
+/home/iosnaaente/Desktop/path_planning/build/robot_kinematic/CMakeFiles/edit_cache.dir
+/home/iosnaaente/Desktop/path_planning/build/robot_kinematic/CMakeFiles/rebuild_cache.dir
+/home/iosnaaente/Desktop/path_planning/build/robot_kinematic/CMakeFiles/list_install_components.dir
+/home/iosnaaente/Desktop/path_planning/build/robot_kinematic/CMakeFiles/install.dir
+/home/iosnaaente/Desktop/path_planning/build/robot_kinematic/CMakeFiles/install/local.dir
+/home/iosnaaente/Desktop/path_planning/build/robot_kinematic/CMakeFiles/install/strip.dir

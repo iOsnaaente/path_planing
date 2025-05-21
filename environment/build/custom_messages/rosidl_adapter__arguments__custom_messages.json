@@ -1,0 +1,8 @@
+{
+  "package_name": "custom_messages",
+  "non_idl_tuples": [
+    "/home/iosnaaente/Desktop/path_planning/src/custom_messages:msg/Obstacles.msg",
+    "/home/iosnaaente/Desktop/path_planning/src/custom_messages:msg/Robot.msg",
+    "/home/iosnaaente/Desktop/path_planning/src/custom_messages:msg/Target.msg"
+  ]
+}

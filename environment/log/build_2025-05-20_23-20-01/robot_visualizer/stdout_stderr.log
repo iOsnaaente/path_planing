@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/robot_visualizer/robot_visualizer.egg-info
+writing ../../build/robot_visualizer/robot_visualizer.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_visualizer/robot_visualizer.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_visualizer/robot_visualizer.egg-info/entry_points.txt
+writing requirements to ../../build/robot_visualizer/robot_visualizer.egg-info/requires.txt
+writing top-level names to ../../build/robot_visualizer/robot_visualizer.egg-info/top_level.txt
+writing manifest file '../../build/robot_visualizer/robot_visualizer.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_visualizer/robot_visualizer.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_visualizer/robot_visualizer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/iosnaaente/Desktop/path_planning/build/robot_visualizer/build
+creating /home/iosnaaente/Desktop/path_planning/build/robot_visualizer/build/lib
+creating /home/iosnaaente/Desktop/path_planning/build/robot_visualizer/build/lib/robot_visualizer
+copying robot_visualizer/visualizer.py -> /home/iosnaaente/Desktop/path_planning/build/robot_visualizer/build/lib/robot_visualizer
+copying robot_visualizer/__init__.py -> /home/iosnaaente/Desktop/path_planning/build/robot_visualizer/build/lib/robot_visualizer
+running install
+running install_lib
+creating /home/iosnaaente/Desktop/path_planning/install/robot_visualizer/lib/python3.10/site-packages/robot_visualizer
+copying /home/iosnaaente/Desktop/path_planning/build/robot_visualizer/build/lib/robot_visualizer/visualizer.py -> /home/iosnaaente/Desktop/path_planning/install/robot_visualizer/lib/python3.10/site-packages/robot_visualizer
+copying /home/iosnaaente/Desktop/path_planning/build/robot_visualizer/build/lib/robot_visualizer/__init__.py -> /home/iosnaaente/Desktop/path_planning/install/robot_visualizer/lib/python3.10/site-packages/robot_visualizer
+byte-compiling /home/iosnaaente/Desktop/path_planning/install/robot_visualizer/lib/python3.10/site-packages/robot_visualizer/visualizer.py to visualizer.cpython-310.pyc
+byte-compiling /home/iosnaaente/Desktop/path_planning/install/robot_visualizer/lib/python3.10/site-packages/robot_visualizer/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/ament_index
+creating /home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/ament_index/resource_index
+creating /home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/ament_index/resource_index/packages
+copying resource/robot_visualizer -> /home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/ament_index/resource_index/packages
+copying package.xml -> /home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/robot_visualizer
+running install_egg_info
+Copying ../../build/robot_visualizer/robot_visualizer.egg-info to /home/iosnaaente/Desktop/path_planning/install/robot_visualizer/lib/python3.10/site-packages/robot_visualizer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing robot_visualizer script to /home/iosnaaente/Desktop/path_planning/install/robot_visualizer/lib/robot_visualizer
+writing list of installed files to '/home/iosnaaente/Desktop/path_planning/build/robot_visualizer/install.log'

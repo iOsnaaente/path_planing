@@ -1,0 +1,20 @@
+[1.191s] Invoking command in '/home/iosnaaente/Desktop/path_planning/launcher': PYTHONPATH=/home/iosnaaente/Desktop/path_planning/build/robot_launcher/prefix_override:/home/iosnaaente/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_launcher build --build-base /home/iosnaaente/Desktop/path_planning/build/robot_launcher/build install --record /home/iosnaaente/Desktop/path_planning/build/robot_launcher/install.log --single-version-externally-managed install_data
+[1.551s] running egg_info
+[1.552s] writing ../build/robot_launcher/robot_launcher.egg-info/PKG-INFO
+[1.552s] writing dependency_links to ../build/robot_launcher/robot_launcher.egg-info/dependency_links.txt
+[1.552s] writing entry points to ../build/robot_launcher/robot_launcher.egg-info/entry_points.txt
+[1.553s] writing requirements to ../build/robot_launcher/robot_launcher.egg-info/requires.txt
+[1.553s] writing top-level names to ../build/robot_launcher/robot_launcher.egg-info/top_level.txt
+[1.556s] reading manifest file '../build/robot_launcher/robot_launcher.egg-info/SOURCES.txt'
+[1.558s] writing manifest file '../build/robot_launcher/robot_launcher.egg-info/SOURCES.txt'
+[1.558s] running build
+[1.559s] running build_py
+[1.559s] running install
+[1.559s] running install_lib
+[1.562s] running install_data
+[1.562s] running install_egg_info
+[1.567s] removing '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages/robot_launcher-0.0.0-py3.10.egg-info' (and everything under it)
+[1.567s] Copying ../build/robot_launcher/robot_launcher.egg-info to /home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages/robot_launcher-0.0.0-py3.10.egg-info
+[1.568s] running install_scripts
+[1.594s] writing list of installed files to '/home/iosnaaente/Desktop/path_planning/build/robot_launcher/install.log'
+[1.631s] Invoked command in '/home/iosnaaente/Desktop/path_planning/launcher' returned '0': PYTHONPATH=/home/iosnaaente/Desktop/path_planning/build/robot_launcher/prefix_override:/home/iosnaaente/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_launcher build --build-base /home/iosnaaente/Desktop/path_planning/build/robot_launcher/build install --record /home/iosnaaente/Desktop/path_planning/build/robot_launcher/install.log --single-version-externally-managed install_data

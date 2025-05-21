@@ -1,0 +1,16 @@
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/lib/robot_kinematic/robot_kinematic
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/ament_index/resource_index/package_run_dependencies/robot_kinematic
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/ament_index/resource_index/parent_prefix_path/robot_kinematic
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/environment/ament_prefix_path.sh
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/environment/ament_prefix_path.dsv
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/environment/path.sh
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/environment/path.dsv
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/local_setup.bash
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/local_setup.sh
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/local_setup.zsh
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/local_setup.dsv
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.dsv
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/ament_index/resource_index/packages/robot_kinematic
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/cmake/robot_kinematicConfig.cmake
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/cmake/robot_kinematicConfig-version.cmake
+/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.xml

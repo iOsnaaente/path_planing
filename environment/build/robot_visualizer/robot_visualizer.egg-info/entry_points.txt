@@ -1,0 +1,3 @@
+[console_scripts]
+robot_visualizer = robot_visualizer.visualizer:main
+

@@ -1,0 +1,380 @@
+[0.278s] DEBUG:colcon:Command line arguments: ['/home/iosnaaente/.local/bin/colcon', 'build']
+[0.278s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f87a31a5060>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f87a31a4b20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f87a31a4b20>>)
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.449s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/iosnaaente/Desktop/path_planning'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(launcher) by extension 'ros'
+[0.475s] DEBUG:colcon.colcon_core.package_identification:Package 'launcher' with type 'ros.ament_python' and name 'robot_launcher'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'colcon_pkg'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['colcon_meta']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'colcon_meta'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extensions ['ros']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_messages) by extension 'ros'
+[0.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_messages' with type 'ros.ament_cmake' and name 'custom_messages'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematic) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematic) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematic) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematic) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematic) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematic) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematic) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematic) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_kinematic) by extension 'ros'
+[0.480s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_kinematic' with type 'ros.ament_cmake' and name 'robot_kinematic'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_planner) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_planner) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_planner) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_planner) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_planner) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_planner) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_planner) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_planner) by extension 'ros'
+[0.481s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_planner' with type 'ros.ament_cmake' and name 'robot_planner'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_visualizer) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_visualizer) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_visualizer) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_visualizer) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_visualizer) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_visualizer) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_visualizer) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_visualizer) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_visualizer) by extension 'ros'
+[0.482s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_visualizer' with type 'ros.ament_python' and name 'robot_visualizer'
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.517s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/iosnaaente/Desktop/path_planning/install/robot_launch' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.518s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/iosnaaente/Desktop/path_planning/install
+[0.519s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 294 installed packages in /opt/ros/humble
+[0.521s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_target' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.566s] DEBUG:colcon.colcon_core.verb:Building package 'custom_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iosnaaente/Desktop/path_planning/build/custom_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iosnaaente/Desktop/path_planning/install/custom_messages', 'merge_install': False, 'path': '/home/iosnaaente/Desktop/path_planning/src/custom_messages', 'symlink_install': False, 'test_result_base': None}
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'cmake_target' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_launcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.567s] DEBUG:colcon.colcon_core.verb:Building package 'robot_launcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iosnaaente/Desktop/path_planning/build/robot_launcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iosnaaente/Desktop/path_planning/install/robot_launcher', 'merge_install': False, 'path': '/home/iosnaaente/Desktop/path_planning/launcher', 'symlink_install': False, 'test_result_base': None}
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematic' build argument 'cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematic' build argument 'cmake_target' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematic' build argument 'cmake_clean_first' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematic' build argument 'cmake_force_configure' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematic' build argument 'ament_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'robot_kinematic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.568s] DEBUG:colcon.colcon_core.verb:Building package 'robot_kinematic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iosnaaente/Desktop/path_planning/build/robot_kinematic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic', 'merge_install': False, 'path': '/home/iosnaaente/Desktop/path_planning/src/robot_kinematic', 'symlink_install': False, 'test_result_base': None}
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'robot_planner' build argument 'cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'robot_planner' build argument 'cmake_target' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'robot_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'robot_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'robot_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'robot_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'robot_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'robot_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'robot_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.569s] DEBUG:colcon.colcon_core.verb:Building package 'robot_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iosnaaente/Desktop/path_planning/build/robot_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iosnaaente/Desktop/path_planning/install/robot_planner', 'merge_install': False, 'path': '/home/iosnaaente/Desktop/path_planning/src/robot_planner', 'symlink_install': False, 'test_result_base': None}
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'robot_visualizer' build argument 'cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'robot_visualizer' build argument 'cmake_target' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'robot_visualizer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'robot_visualizer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'robot_visualizer' build argument 'cmake_clean_first' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'robot_visualizer' build argument 'cmake_force_configure' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'robot_visualizer' build argument 'ament_cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'robot_visualizer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'robot_visualizer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.570s] DEBUG:colcon.colcon_core.verb:Building package 'robot_visualizer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/iosnaaente/Desktop/path_planning/build/robot_visualizer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer', 'merge_install': False, 'path': '/home/iosnaaente/Desktop/path_planning/src/robot_visualizer', 'symlink_install': False, 'test_result_base': None}
+[0.570s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.571s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.571s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/iosnaaente/Desktop/path_planning/src/custom_messages' with build type 'ament_cmake'
+[0.571s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/iosnaaente/Desktop/path_planning/src/custom_messages'
+[0.574s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.574s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.575s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.578s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/iosnaaente/Desktop/path_planning/launcher' with build type 'ament_python'
+[0.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_launcher', 'ament_prefix_path')
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/robot_launcher/hook/ament_prefix_path.ps1'
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/robot_launcher/hook/ament_prefix_path.dsv'
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/robot_launcher/hook/ament_prefix_path.sh'
+[0.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iosnaaente/Desktop/path_planning/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --build /home/iosnaaente/Desktop/path_planning/build/custom_messages -- -j8 -l8
+[1.085s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/iosnaaente/Desktop/path_planning/launcher'
+[1.086s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.086s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iosnaaente/Desktop/path_planning/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --build /home/iosnaaente/Desktop/path_planning/build/custom_messages -- -j8 -l8
+[1.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iosnaaente/Desktop/path_planning/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --install /home/iosnaaente/Desktop/path_planning/build/custom_messages
+[1.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_messages)
+[1.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iosnaaente/Desktop/path_planning/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --install /home/iosnaaente/Desktop/path_planning/build/custom_messages
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/custom_messages' for CMake module files
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/custom_messages' for CMake config files
+[1.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'cmake_prefix_path')
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.ps1'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.dsv'
+[1.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.sh'
+[1.339s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/custom_messages/lib'
+[1.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'ld_library_path_lib')
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.ps1'
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.dsv'
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.sh'
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/custom_messages/bin'
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/custom_messages/lib/pkgconfig/custom_messages.pc'
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/custom_messages/lib/python3.10/site-packages'
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/custom_messages/bin'
+[1.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/package.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/package.dsv'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/package.sh'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/package.bash'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/package.zsh'
+[1.347s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/colcon-core/packages/custom_messages)
+[1.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_messages)
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/custom_messages' for CMake module files
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/custom_messages' for CMake config files
+[1.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'cmake_prefix_path')
+[1.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.ps1'
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.dsv'
+[1.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.sh'
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/custom_messages/lib'
+[1.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'ld_library_path_lib')
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.ps1'
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.dsv'
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.sh'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/custom_messages/bin'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/custom_messages/lib/pkgconfig/custom_messages.pc'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/custom_messages/lib/python3.10/site-packages'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/custom_messages/bin'
+[1.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/package.ps1'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/package.dsv'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/package.sh'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/package.bash'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/custom_messages/package.zsh'
+[1.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iosnaaente/Desktop/path_planning/install/custom_messages/share/colcon-core/packages/custom_messages)
+[1.358s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/iosnaaente/Desktop/path_planning/src/robot_kinematic' with build type 'ament_cmake'
+[1.358s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/iosnaaente/Desktop/path_planning/src/robot_kinematic'
+[1.358s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.365s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/iosnaaente/Desktop/path_planning/src/robot_planner' with build type 'ament_cmake'
+[1.365s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/iosnaaente/Desktop/path_planning/src/robot_planner'
+[1.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.373s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/iosnaaente/Desktop/path_planning/src/robot_visualizer' with build type 'ament_python'
+[1.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_visualizer', 'ament_prefix_path')
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/robot_visualizer/hook/ament_prefix_path.ps1'
+[1.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/robot_visualizer/hook/ament_prefix_path.dsv'
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/robot_visualizer/hook/ament_prefix_path.sh'
+[1.377s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iosnaaente/Desktop/path_planning/build/robot_planner': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --build /home/iosnaaente/Desktop/path_planning/build/robot_planner -- -j8 -l8
+[1.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iosnaaente/Desktop/path_planning/build/robot_kinematic': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --build /home/iosnaaente/Desktop/path_planning/build/robot_kinematic -- -j8 -l8
+[2.194s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/iosnaaente/Desktop/path_planning/src/robot_visualizer'
+[2.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iosnaaente/Desktop/path_planning/build/robot_kinematic' returned '0': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --build /home/iosnaaente/Desktop/path_planning/build/robot_kinematic -- -j8 -l8
+[2.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iosnaaente/Desktop/path_planning/build/robot_kinematic': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --install /home/iosnaaente/Desktop/path_planning/build/robot_kinematic
+[2.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iosnaaente/Desktop/path_planning/launcher': PYTHONPATH=/home/iosnaaente/Desktop/path_planning/build/robot_launcher/prefix_override:/home/iosnaaente/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_launcher build --build-base /home/iosnaaente/Desktop/path_planning/build/robot_launcher/build install --record /home/iosnaaente/Desktop/path_planning/build/robot_launcher/install.log --single-version-externally-managed install_data
+[2.227s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_kinematic)
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic' for CMake module files
+[2.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iosnaaente/Desktop/path_planning/build/robot_kinematic' returned '0': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --install /home/iosnaaente/Desktop/path_planning/build/robot_kinematic
+[2.231s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic' for CMake config files
+[2.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_kinematic', 'cmake_prefix_path')
+[2.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/hook/cmake_prefix_path.ps1'
+[2.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/hook/cmake_prefix_path.dsv'
+[2.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/hook/cmake_prefix_path.sh'
+[2.237s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/lib'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/bin'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/lib/pkgconfig/robot_kinematic.pc'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/lib/python3.10/site-packages'
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/bin'
+[2.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.ps1'
+[2.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.dsv'
+[2.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.sh'
+[2.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.bash'
+[2.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.zsh'
+[2.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/colcon-core/packages/robot_kinematic)
+[2.242s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_kinematic)
+[2.242s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic' for CMake module files
+[2.243s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic' for CMake config files
+[2.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_kinematic', 'cmake_prefix_path')
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/hook/cmake_prefix_path.ps1'
+[2.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/hook/cmake_prefix_path.dsv'
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/hook/cmake_prefix_path.sh'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/lib'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/bin'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/lib/pkgconfig/robot_kinematic.pc'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/lib/python3.10/site-packages'
+[2.253s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/bin'
+[2.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.ps1'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.dsv'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.sh'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.bash'
+[2.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/robot_kinematic/package.zsh'
+[2.256s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iosnaaente/Desktop/path_planning/install/robot_kinematic/share/colcon-core/packages/robot_kinematic)
+[2.764s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_launcher' for CMake module files
+[2.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iosnaaente/Desktop/path_planning/launcher' returned '0': PYTHONPATH=/home/iosnaaente/Desktop/path_planning/build/robot_launcher/prefix_override:/home/iosnaaente/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_launcher build --build-base /home/iosnaaente/Desktop/path_planning/build/robot_launcher/build install --record /home/iosnaaente/Desktop/path_planning/build/robot_launcher/install.log --single-version-externally-managed install_data
+[2.765s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_launcher' for CMake config files
+[2.765s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib'
+[2.766s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/bin'
+[2.766s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/pkgconfig/robot_launcher.pc'
+[2.766s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/lib/python3.10/site-packages'
+[2.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_launcher', 'pythonpath')
+[2.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/robot_launcher/hook/pythonpath.ps1'
+[2.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/robot_launcher/hook/pythonpath.dsv'
+[2.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/robot_launcher/hook/pythonpath.sh'
+[2.769s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/bin'
+[2.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_launcher)
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/robot_launcher/package.ps1'
+[2.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/robot_launcher/package.dsv'
+[2.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/robot_launcher/package.sh'
+[2.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/robot_launcher/package.bash'
+[2.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/robot_launcher/package.zsh'
+[2.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iosnaaente/Desktop/path_planning/install/robot_launcher/share/colcon-core/packages/robot_launcher)
+[3.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iosnaaente/Desktop/path_planning/src/robot_visualizer': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic PYTHONPATH=/home/iosnaaente/Desktop/path_planning/build/robot_visualizer/prefix_override:/home/iosnaaente/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_visualizer build --build-base /home/iosnaaente/Desktop/path_planning/build/robot_visualizer/build install --record /home/iosnaaente/Desktop/path_planning/build/robot_visualizer/install.log --single-version-externally-managed install_data
+[3.551s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer' for CMake module files
+[3.553s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer' for CMake config files
+[3.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iosnaaente/Desktop/path_planning/src/robot_visualizer' returned '0': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic PYTHONPATH=/home/iosnaaente/Desktop/path_planning/build/robot_visualizer/prefix_override:/home/iosnaaente/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_visualizer build --build-base /home/iosnaaente/Desktop/path_planning/build/robot_visualizer/build install --record /home/iosnaaente/Desktop/path_planning/build/robot_visualizer/install.log --single-version-externally-managed install_data
+[3.556s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/lib'
+[3.556s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/bin'
+[3.556s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/lib/pkgconfig/robot_visualizer.pc'
+[3.557s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/lib/python3.10/site-packages'
+[3.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_visualizer', 'pythonpath')
+[3.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/robot_visualizer/hook/pythonpath.ps1'
+[3.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/robot_visualizer/hook/pythonpath.dsv'
+[3.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/robot_visualizer/hook/pythonpath.sh'
+[3.559s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/bin'
+[3.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_visualizer)
+[3.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/robot_visualizer/package.ps1'
+[3.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/robot_visualizer/package.dsv'
+[3.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/robot_visualizer/package.sh'
+[3.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/robot_visualizer/package.bash'
+[3.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/robot_visualizer/package.zsh'
+[3.563s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iosnaaente/Desktop/path_planning/install/robot_visualizer/share/colcon-core/packages/robot_visualizer)
+[13.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iosnaaente/Desktop/path_planning/build/robot_planner' returned '0': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --build /home/iosnaaente/Desktop/path_planning/build/robot_planner -- -j8 -l8
+[13.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/iosnaaente/Desktop/path_planning/build/robot_planner': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --install /home/iosnaaente/Desktop/path_planning/build/robot_planner
+[13.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_planner)
+[13.800s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_planner' for CMake module files
+[13.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/iosnaaente/Desktop/path_planning/build/robot_planner' returned '0': CMAKE_PREFIX_PATH=/home/iosnaaente/Desktop/path_planning/install/custom_messages:/home/iosnaaente/Desktop/path_planning/install/robot_planner:/home/iosnaaente/Desktop/path_planning/install/robot_kinematic:/home/iosnaaente/Desktop/path_planning/install/robot_launcher:/home/iosnaaente/Desktop/path_planning/install/robot_visualizer:/home/iosnaaente/Desktop/path_planning/install/robot_launch:/opt/ros/humble /usr/bin/cmake --install /home/iosnaaente/Desktop/path_planning/build/robot_planner
+[13.801s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_planner' for CMake config files
+[13.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_planner', 'cmake_prefix_path')
+[13.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/hook/cmake_prefix_path.ps1'
+[13.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/hook/cmake_prefix_path.dsv'
+[13.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/hook/cmake_prefix_path.sh'
+[13.803s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_planner/lib'
+[13.803s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_planner/bin'
+[13.803s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_planner/lib/pkgconfig/robot_planner.pc'
+[13.803s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_planner/lib/python3.10/site-packages'
+[13.804s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_planner/bin'
+[13.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.ps1'
+[13.806s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.dsv'
+[13.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.sh'
+[13.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.bash'
+[13.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.zsh'
+[13.809s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/colcon-core/packages/robot_planner)
+[13.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_planner)
+[13.811s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_planner' for CMake module files
+[13.811s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_planner' for CMake config files
+[13.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_planner', 'cmake_prefix_path')
+[13.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/hook/cmake_prefix_path.ps1'
+[13.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/hook/cmake_prefix_path.dsv'
+[13.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/hook/cmake_prefix_path.sh'
+[13.813s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_planner/lib'
+[13.813s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_planner/bin'
+[13.813s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_planner/lib/pkgconfig/robot_planner.pc'
+[13.814s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_planner/lib/python3.10/site-packages'
+[13.814s] Level 1:colcon.colcon_core.environment:checking '/home/iosnaaente/Desktop/path_planning/install/robot_planner/bin'
+[13.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.ps1'
+[13.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.dsv'
+[13.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.sh'
+[13.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.bash'
+[13.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/robot_planner/package.zsh'
+[13.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/iosnaaente/Desktop/path_planning/install/robot_planner/share/colcon-core/packages/robot_planner)
+[13.817s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.818s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.818s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.818s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.917s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[13.917s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.917s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.917s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.917s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[13.917s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.918s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iosnaaente/Desktop/path_planning/install/local_setup.ps1'
+[13.919s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/iosnaaente/Desktop/path_planning/install/_local_setup_util_ps1.py'
+[13.920s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iosnaaente/Desktop/path_planning/install/setup.ps1'
+[13.921s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iosnaaente/Desktop/path_planning/install/local_setup.sh'
+[13.922s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/iosnaaente/Desktop/path_planning/install/_local_setup_util_sh.py'
+[13.922s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iosnaaente/Desktop/path_planning/install/setup.sh'
+[13.924s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iosnaaente/Desktop/path_planning/install/local_setup.bash'
+[13.925s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iosnaaente/Desktop/path_planning/install/setup.bash'
+[13.926s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/iosnaaente/Desktop/path_planning/install/local_setup.zsh'
+[13.927s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/iosnaaente/Desktop/path_planning/install/setup.zsh'
